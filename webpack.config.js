@@ -23,11 +23,14 @@ module.exports = {
       },
       { 
         test:/\.css$/,
-        use: [ 'style-loader', {
-          loader: 'css-loader',
-          options: {url: false} 
-        }],        
-      } 
+        use: [ 'style-loader',  'css-loader'],        
+      },
+      {
+        test: /\.(gif|jpg|png|svg|eot|ttf|woff|woff2)$/, 
+        use: {
+          loader: 'file-loader'
+        }
+      }   
     ]
   },
   resolve: {
