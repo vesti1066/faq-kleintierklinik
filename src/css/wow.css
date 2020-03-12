@@ -2,3 +2,35 @@
     font-size: 0.9vw;
     text-align: center;
 }
+
+.cross {
+    text-align: right;
+}
+
+
+#or {
+    font-size: 3em;
+}
+
+#separation{
+    border: 2px solid black;
+   width: 5vw;
+
+}
+
+.btn_email {
+    border: 1px solid black !important;
+}
+
+.btn_email:hover {
+    background-color: black;
+    color: white !important;
+}
+
+.question:hover{
+    background-color:rgba(68, 68, 68, 0.096)!important;
+}
+
+.resize>div:hover {
+    background-color: rgba(18, 83, 33, 0.788)!important;
+}
