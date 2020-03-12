@@ -6,7 +6,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 $('.collapse').on('shown.bs.collapse', function(){
-    $(this).parent().find(".fas").removeClass("fa-plus").addClass("fa-times");
+    $(this).parent().find(".quest_icon").removeClass("fa-plus").addClass("fa-minus");
     }).on('hidden.bs.collapse', function(){
-    $(this).parent().find(".fas").removeClass("fa-times").addClass("fa-plus");
+    $(this).parent().find(".quest_icon").removeClass("fa-minus").addClass("fa-plus");
     });

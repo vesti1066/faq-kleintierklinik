@@ -8,19 +8,29 @@
 }
 
 
+#or {
+    font-size: 3em;
+}
 
-.panel-heading {
-    cursor: pointer;
+#separation{
+    border: 2px solid black;
+   width: 5vw;
+
 }
-/* CSS Method for adding Font Awesome Chevron Icons */
- .accordion-toggle:after {
-    /* symbol for "opening" panels */
-    font-family:'FontAwesome';
-    content:"\f146";
-    float: right;
-    color: inherit;
+
+.btn_email {
+    border: 1px solid black !important;
 }
-.panel-heading.collapsed .accordion-toggle:after {
-    /* symbol for "collapsed" panels */
-    content:"\f0fe";
+
+.btn_email:hover {
+    background-color: black;
+    color: white !important;
+}
+
+.question:hover{
+    background-color:rgba(68, 68, 68, 0.096)!important;
+}
+
+.resize>div:hover {
+    background-color: rgba(18, 83, 33, 0.788)!important;
 }
