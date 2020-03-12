@@ -29,8 +29,19 @@
 
 .question:hover{
     background-color:rgba(68, 68, 68, 0.096)!important;
+   
 }
 
 .resize>div:hover {
     background-color: rgba(18, 83, 33, 0.788)!important;
+    cursor: pointer;
+}
+
+.card-body>i:hover {
+    color: green;
+    cursor: pointer;
+}
+
+#previous{
+    cursor: pointer;
 }
