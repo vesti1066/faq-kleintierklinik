@@ -19,6 +19,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
      let id = $(event.currentTarget).attr('id');
      console.log(id);
     window.location = id+'.html';
+    
   })
 
   $('#previous').click(function (event) {
@@ -30,3 +31,9 @@ $('.collapse').on('shown.bs.collapse', function(){
     }).on('hidden.bs.collapse', function(){
     $(this).parent().find(".fas").removeClass("fa-times").addClass("fa-plus");
     });
+
+    $('div.list-group button').click(function (event) {
+      let id = $(event.currentTarget).attr('id');
+      console.log(id);
+     window.location = id+'.html';
+   })
