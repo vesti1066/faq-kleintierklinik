@@ -22,9 +22,34 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
     
   })
 
+
   $('#previous').click(function (event) {
-    history.back();
+    window.location = "index.html"
   });
+
+
+  // bonhommes de satisfactions 
+
+  $('.fa-frown').click(function(){
+    $(this).toggleClass('sadClicked');
+    $(this).siblings().removeClass('mehClicked happyClicked d-none');
+    
+
+  });
+
+  $('.fa-meh').click(function(){
+    $(this).toggleClass('mehClicked');
+    $(this).siblings().removeClass('sadClicked happyClicked d-none');
+
+  });
+
+  $('.fa-smile').click(function(){
+    $(this).toggleClass('happyClicked');
+    $(this).siblings().removeClass('mehClicked sadClicked d-none');
+
+  });
+
+  
 
 $('.collapse').on('shown.bs.collapse', function(){
     $(this).parent().find(".quest_icon").removeClass("fa-plus").addClass("fa-minus");

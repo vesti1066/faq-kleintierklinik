@@ -13,7 +13,7 @@
 }
 
 #separation{
-    border: 2px solid black;
+   border: 2px solid black;
    width: 5vw;
 
 }
@@ -37,11 +37,42 @@
     cursor: pointer;
 }
 
-.card-body>i:hover {
+.card-body>i.fa-frown:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.sadClicked {
+    color: red;
+}
+
+.mehClicked {
+    color: orange;
+}
+
+.happyClicked {
+    color: green;
+}
+
+.card-body>i.fa-meh:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.card-body>i.fa-smile:hover {
     color: green;
     cursor: pointer;
 }
 
 #previous{
     cursor: pointer;
+}
+
+.btn-success.focus, .btn-success:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(27, 133, 36, 0.459) !important;
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: none !important;
 }
