@@ -1,0 +1,315 @@
+[
+{
+    "id": 1,
+    "title": "Quand la clinique est-elle ouverte ?",
+    "answer": "La clinique pour petits animaux est ouverte de 07.30h à 17.30h. En dehors de ces heures d´ouverture régulières, il vous faudra appuyer sur le bouton d´urgence à l'entrée de la clinique, car la réception ne sera alors plus occupée.",
+    "category": "Informations pratiques" 
+  },
+{
+    "id": 2,
+    "title": "La clinique pour petits animaux est-elle accessible en fauteuil roulant ?",
+    "answer": "L’entrée, ainsi que de nombreux cabinets de consultation, sont situés au rez-de-chaussée et sont ainsi accessibles pour des propriétaires en fauteuil roulant.",
+    "category": "Informations pratiques" 
+  },
+  {
+    "id": 3,
+    "title": "Quels sont les domaines de spécialisation représentés à la clinique pour petits animaux ?",
+    "answer": "Dans la clinique pour petits animaux de l’Université de Berne, nos spécialistes travaillent dans les divisions suivantes:<ul><li>Chirurgie</li><li>Dermatologie</li><li>Médecine interne</li><li>Cardiologie</li><li>Laboratoire</li><li>Urgences</li><li>Radiologie</li></ul>",
+    "category": "Informations pratiques" 
+  },
+  {
+    "id": 4,
+    "title": "Combien de temps dois-je prévoir pour une visite à l'hôpital vétérinaire de Berne ?",
+    "answer": "Une visite de votre animal à notre hôpital vétérinaire peut durer plusieurs heures. La plupart de nos patients souffrent de maladies complexes et passent la journée chez nous pour un diagnostic approfondi. Si nécessaire, les patients présentés seront hospitalisés pour la suite du diagnostic et pour la thérapie.",
+    "category": "Informations pratiques" 
+  },
+  {
+    "id": 5,
+    "title": "Où puis-je me garer ?",
+    "answer": "Vous avez des places de parking publiques et payantes à votre disposition directement en face de la clinique pour petits animaux (Bâtiment Nr. 128). Le parcomètre se situe juste à l’entrée du bâtiment Nr. 122. Nous vous recommandons vivement de faire usage du parcomètre: les autorités effectuent très souvent des contrôles du stationnement.",
+    "category": "Informations pratiques" 
+  },
+  {
+    "id": 6,
+    "title": "Comment puis-je atteindre la clinique pour petits animaux avec les transports publics ?",
+    "answer": "La clinique pour petits animaux est facilement accessible avec les transports en commun (Ligne de bus 20 en direction Länggasse). Descendez S.V.P. au terminus/dernier arrêt (Länggasse) et parcourez ensuite environ 200m dans le sens de la marche. Le grand bâtiment relativement moderne que vous atteignez porte le numéro 128 et l'inscription “Kleintierklinik” (Clinique pour petits animaux).",
+    "category": "Informations pratiques" 
+  },
+  {
+    "id": 7,
+    "title": "Où dois-je m’annoncer à mon arrivée ?",
+    "answer": "Vous vous inscrivez à la réception de la Clinique des petits animaux de Berne. Elle est situé directement à l'entrée principale.",
+    "category": "Informations pratiques" 
+  },
+  {
+    "id": 8,
+    "title": "Quelles espèces traitez-vous ?",
+    "answer": "A la Clinique des petits animaux de Berne, nous soignons uniquement les chats et les chiens.",
+    "category": "Informations pratiques" 
+  },
+  {
+    "id": 9,
+    "title": "J'ai retrouvé un animal égaré. Que faire ?",
+    "answer": "En premier lieu, il est préférable de demander dans le voisinage si quelqu'un connaît l'animal errant. Si personne ne connaît l'animal et qu'il ne semble pas avoir de propriétaire, emmenez-le chez un vétérinaire si possible, afin qu'une puce puisse être lue si elle est présente. ",
+    "category": "Informations pratiques" 
+  },
+  {
+    "id": 10,
+    "title": "Quelles sont les précautions à prendre lorsque l’on retrouve un animal égaré (hygiène, transport, etc) ?",
+    "answer": "Dans la mesure du possible, il faut transporter les chats dans une boîte à chat et tenir les chiens en laisse. Si l'animal est trop agressif, il faut demander l'aide de la police. Le vétérinaire discutera avec vous de la suite de la procédure.",
+    "category": "Informations pratiques" 
+  },
+  {
+    "id": 11,
+    "title": "Comment annuler un rendez-vous ? un rendez-vous peut-il être reporté ?",
+    "answer": "Nous vous serions reconnaissants de bien vouloir annuler et/ou reporter un rendez-vous le plus tôt possible. Nous vous prions de contacter à cet effet, la réception de la clinique pour petits animaux en composant le +41 31 631 23 15. Si vous désirez reporter un rendez-vous, nous vous prions de comprendre que nous ne serons pas en mesure, en général, de vous attribuer un rendez-vous à brève échéance. En accord avec la division concernée, notre réceptionniste vous donnera cependant un autre rendez-vous le plus rapidement possible.",
+    "category": "Consultation" 
+  },
+  {
+    "id": 12,
+    "title": "Comment dois-je prendre rendez-vous pour une consultation avec mon animal à la clinique pour petits animaux ?",
+    "answer": "La clinique pour petits animaux de l’Université de Berne est principalement une clinique, dont les patients sont toujours avisés par téléphone ou par fax par leur vétérinaire traitant, avant d’y être envoyés. Après réception et examen du dossier transmis, nous vous contacterons directement pour prendre un rendez-vous. Le service des urgences est réservé aux patients qui ne peuvent pas ou que partiellement être traités dans un cabinet privé. Nous vous prions de toujours contacter en premier lieu votre vétérinaire traitant. Il fera le nécessaire pour le transfert de votre animal à notre clinique.",
+    "category": "Consultation" 
+  },
+  {
+    "id": 13,
+    "title": "Dois-je toujours emmener le carnet de vaccination de mon animal à chaque consultation ?",
+    "answer": "Il est toujours recommandé d’emmener spontanément le carnet de vaccination de votre animal, surtout lorsqu’il s’agit de toutes premières consultations. Le carnet contient entre autres le numéro de la puce de l’animal, ce qui sert à son identification.",
+    "category": "Consultation" 
+  },
+  {
+    "id": 14,
+    "title": "Dois-je préparer moi-même certains documents et les emmener à la clinique pour petits animaux ?",
+    "answer": "Radiographies DH/DC/OCD (Dysplasie): Vous trouverez sur le site www.dysplasie-schweiz.ch le formulaire de demande correspondant, que vous pouvez télécharger. Nous vous prions de nous l’amener imprimé et rempli, avec le pedigree original, au rendez-vous. Analyses de sang/Analyses de l’ADN: Chaque race de chien dispose de directives et de formulaires différents, que les associations d´élevage ne nous communiquent pas. C´est pourquoi nous vous prions de bien vouloir nous apporter les formulaires de laboratoire conformes vous-même, sinon il ne nous sera pas possible d’effectuer une analyse de sang. Tests CMH (Cardiomyopathie hypertrophique, épaississement de la paroi du coeur): Prière de bien vouloir nous amener le formulaire imprimé et rempli, après l’avoir téléchargé sur le site suivant: www.pawpeds.com/healthprogrammes/index_fr.html",
+    "category": "Consultation" 
+  },
+  {
+    "id": 15,
+    "title": "Qui vais-je rencontrer lors de l’examination de mon animal ? Est-ce que ce sera toujours le même vétérinaire qui s’occupera de mon animal à chaque fois ?",
+    "answer": "À la clinique pour petits animaux de l’Université de Berne, nous sommes responsables de la formation de nos étudiants pour qu’ils obtiennent leur diplôme de médecine vétérinaire. De plus, nous assurons par la suite la formation continue qui fera d’eux des spécialistes. C’est pour cette raison que l´anamnèse (présentation du patient et de son passé médical) est pratiquée par les étudiants qui sont sur le point de passer leur examen fédéral. Les étudiants recueillent toutes les informations possibles concernant l’animal présenté et en discutent séparément avec le médecin assistant responsable de la division correspondante. Après cet entretien, l’animal sera examiné minutieusement par le médecin assistant en présence du propriétaire. Un éventuel recours à des tests ou traitements diagnostiques complémentaires sera discuté directement avec le propriétaire. Dans la mesure du possible, ce sera le même médecin qui s’occupera de l’animal lors des traitements qui suivront. Cependant, dû au grand nombre de vétérinaires et aux rotations de services, nous ne pouvons pas toujours garantir cette continuité et il est possible que ce soit un autre vétérinaire issu du même domaine de spécialisation qui s’occupera de l’animal. Du fait de la documentation détaillée du cas et d’une bonne communication interne, ces changements de vétérinaires ne devraient nullement influencer le traitement du patient.",
+    "category": "Consultation" 
+  },
+  {
+    "id": 16,
+    "title": "Suis-je en droit de me faire remettre les radios et résultats d'examens de mon animal ?",
+    "answer": "https://www.veterinaire.fr/faq/votre-veterinaire-et-vous/soins/suis-je-en-droit-de-me-faire-remettre-les-radios-et-resultats-dexamens-de-mon-animal.html<br>Dès que vous avez payé la facture chez nous, vous avez légalement droit aux examens qui ont été effectués chez nous.",
+    "category": "Consultation" 
+  },
+  {
+    "id": 17,
+    "title": "Est-il conseillé de venir accompagné lorsque mon animal est blessé ?",
+    "answer": "Il est judicieux que quelqu'un vous accompagne chez nous avec votre animal de compagnie blessé, en particulier pour le transport. Par exemple, si vous êtes en état de choc et que vous vous sentez incapable de conduire une voiture, quelqu'un peut s'en occuper pour vous et vous pouvez vous occuper de l'animal durant le voyage. En outre, en cas de nombre élevé d'urgences à la clinique, les délais d'attente peuvent être plus longs.",
+    "category": "Bonnes pratiques" 
+  },
+  {
+    "id": 18,
+    "title": "Il y a t-il des pratiques à éviter lors du déplacement de mon animal blessé ?",
+    "answer": "Votre animal peut souffrir et réagir différemment (agressivement) à la manipulation. Cela signifie pour vous que, selon la blessure, vous devez manipuler votre animal avec prudence et éventuellement aussi avec des gants de protection. (Par exemple, gants de jardinage, gants de ski, etc.)",
+    "category": "Bonnes pratiques" 
+  },
+  {
+    "id": 19,
+    "title": "Puis-je faire quelque chose pour diminuer la douleur ressentie par mon animal de compagnie ?",
+    "answer": "Comme vous devez réagir différemment selon la nature de l'incident, nous vous recommandons de contacter votre vétérinaire personnel et de suivre ses instructions.",
+    "category": "Bonnes pratiques" 
+  },
+  {
+    "id": 20,
+    "title": "Comment calmer mon animal après un choc ?",
+    "answer": "Essayez de rester calme et de manipuler votre animal le moins possible.",
+    "category": "Bonnes pratiques" 
+  },
+  {
+    "id": 21,
+    "title": "Quelles sont les conditions à remplir par mon chien/ma chienne pour devenir donneur/donneuse de sang ?",
+    "answer": "Votre chien peut sauver des vies! Vous trouverez toutes les informations à ce sujet dans la rubrique Dons du sang.<br>https://www.kleintierklinik.unibe.ch/prestations_de_services/dons_du_sang/index_fra.html",
+    "category": "Prise en charge" 
+  },
+  {
+    "id": 22,
+    "title": "Dois-je verser un acompte pour les soins de mon animal ?",
+    "answer": "Afin que nous puissions fournir des soins et des diagnostics supplémentaires à votre animal, nous demandons un acompte de 50% du devis.",
+    "category": "Prise en charge" 
+  },
+  {
+    "id": 23,
+    "title": "Est-ce que mon animal doit être à jour avec ses vaccins pour être pris en charge ?",
+    "answer": "C'est un avantage si votre animal est régulièrement vacciné. Mais ce n'est pas une raison pour nous de ne pas accueillir votre animal de compagnie.",
+    "category": "Prise en charge" 
+  },
+  {
+    "id": 24,
+    "title": "Est ce que je peux donner des objets personnels à mon animal quand il est hospitalisé ?",
+    "answer": "Vous pouvez bien sûr donner des objets personnels (par exemple des animaux en peluche etc.) à votre animal lors de son séjour à l’hôpital, mais nous déclinons toute responsabilité pour la perte de ces objets personnels. Merci de votre compréhension! Les propriétaires sont toutefois priés de ramener les laisses, les paniers etc. directement à la maison.",
+    "category": "Hospitalisation" 
+  },
+  {
+    "id": 25,
+    "title": "Est-ce que je serai régulièrement informé(e) sur l’état de santé de mon animal, s’il devrait être hospitalisé ?",
+    "answer": "Les propriétaires sont informés tous les jours sur l’état de santé actuel de leur animal par les médecins vétérinaires responsables. En général, ils seront contactés dans le courant de l’après-midi, après la visite et les soins. Bien entendu, ils seront contactés immédiatement dans le cas d’une modification de l’état de santé de leur animal ou dans le cas de divergences avec le plan de traitement préalablement convenu.",
+    "category": "Hospitalisation" 
+  },
+  {
+    "id": 26,
+    "title": "Est-ce que je peux rendre visite à mon animal ? Quand sont les heures de visite ?",
+    "answer": "Vous pouvez volontiers rendre visite à votre animal, si son état le permet.<br>Du lundi au vendredi - de 14.00h à 16.30h<br>Le week-end - de 14.00h à 16.00h<br> Nous vous prions cependant de toujours nous contacter d’abord par téléphone pour convenir d’une heure de visite en composant le numéro +41 31 631 23 15. Après avoir consulté le médecin vétérinaire responsable, nos réceptionnistes vous fixeront une heure de rendez-vous.",
+    "category": "Hospitalisation" 
+  },
+  {
+    "id": 27,
+    "title": "Est-ce que je peux faire castrer mon chat/ mon chien à la clinique pour petits animaux ?",
+    "answer": "Une castration à la clinique pour petits animaux est fondamentalement possible, mais nous recommandons cependant aux propriétaires de laisser castrer leurs animaux par un vétérinaire traitant dans un cabinet privé. Les animaux y sont pris en charge le matin à jeun et peuvent être recherchés le soir-même. Dans la clinique pour petits animaux, l’animal à castrer sera présenté la veille de l’opération et il y passera la nuit. Il n´est pas nécessaire qu´il soit à jeun lors de sa présentation. Le jour de l’opération, il pourra normalement retourner chez lui une fois la castration effectuée. Nous contactons les propriétaires ce jour-là par téléphone afin qu´ils sachent, quand ils pourront rechercher leur animal. Les castrations ne sont effectuées à la clinique pour petits animaux que le mardi, le mercredi et le jeudi.",
+    "category": "Hospitalisation" 
+  },
+  {
+    "id": 28,
+    "title": "Quels sont les différents services proposés par la clinique ?",
+    "answer": "Médecine interne, chirurgie, radiologie, ophtalmologie, dermatologie, soins d'urgence et intensifs, anesthésie.",
+    "category": "Hospitalisation" 
+  },
+  {
+    "id": 29,
+    "title": "Mon chat / chien sera-t-il mélangé à d’autres espèces ?",
+    "answer": "Les chats et les chiens sont hospitalisés dans la même pièce de l'unité de soins intensifs. Dans notre écurie, les chats sont séparés des chiens.",
+    "category": "Hospitalisation" 
+  },
+  {
+    "id": 30,
+    "title": "Où sera logé mon animal pendant la nuit ?",
+    "answer": "Nous disposons d'une unité de soins intensifs où les animaux en situation critique sont surveillés et soignés 24 heures sur 24. Pour les animaux qui sont dans un état général stable, nous disposons d'une zone d'hospitalisation supplémentaire. Votre animal sera placé dans une cage adaptée aux animaux pendant toute la durée de l'hospitalisation.",
+    "category": "Hospitalisation" 
+  },
+  {
+    "id": 31,
+    "title": "Est-ce que je dois apporter la nourriture de mon animal pour son hospitalisation ?",
+    "answer": "En général, vous n'avez pas besoin d'apporter votre propre nourriture. Nous sommes équipés de divers aliments diététiques. Il y a bien sûr toujours des exceptions, si cela devait être le cas avec votre animal, le vétérinaire responsable vous en informera.",
+    "category": "Hospitalisation" 
+  },
+  {
+    "id": 32,
+    "title": "Est- ce que je suis décisionnaire d’arrêter ou de continuer le processus d'hospitalisation de mon animal ?",
+    "answer": "Le propriétaire décide de la date de fin du séjour à l'hôpital.",
+    "category": "Hospitalisation" 
+  },
+  {
+    "id": 33,
+    "title": "Dois-je annoncer les allergies de mon animal à son arrivée ?",
+    "answer": "À la réception directement ou au vétérinaire, soit l'un soit l'autre mais plus fréquemment le vétérinaire.",
+    "category": "Hospitalisation" 
+  },
+  {
+    "id": 34,
+    "title": "Qui peut prendre la décision d'euthanasier un animal ?",
+    "answer": "Le choix de l’euthanasie est annoncé par le vétérinaire qui prendra la décision en accord avec le propriétaire<br>https://www.veterinaire.fr/faq/votre-veterinaire-et-vous/soins/qui-peut-prendre-la-decision-deuthanasier-un-animal.html",
+    "category": "Hospitalisation" 
+  },
+  {
+    "id": 35,
+    "title": "Combien de temps dure un séjour moyen dans la clinique ?",
+    "answer": "3 à 5 jours pour les cas complexes.",
+    "category": "Sejour" 
+  },
+  {
+    "id": 36,
+    "title": "Est- ce que mon animal est nourri selon un horaire établi ? ",
+    "answer": "Oui",
+    "category": "Sejour" 
+  },
+  {
+    "id": 37,
+    "title": "Est-ce que mon animal peut suivre un régime particulier ?",
+    "answer": "C'est au propriétaire de le préciser soit à l'accueil soit au vétérinaire, soit aux deux.",
+    "category": "Sejour" 
+  },
+  {
+    "id": 38,
+    "title": "Comment mon animal fait-il ses besoins lors d’un séjour dans la clinique ?",
+    "answer": "La clinique dispose d’endroits prévus à cet effet à l’extérieur, si votre animal est capable de se déplacer.",
+    "category": "Sejour" 
+  },
+  {
+    "id": 39,
+    "title": "Est-ce que mon animal est en contact direct avec d’autres animaux de son espèce ?",
+    "answer": "Non, les espèces ne sont pas mélangées.",
+    "category": "Sejour" 
+  },
+  {
+    "id": 40,
+    "title": "Il y a t-il différents niveau de confort pour les animaux (VIP) ?",
+    "answer": "Non.",
+    "category": "Sejour" 
+  },
+  {
+    "id": 41,
+    "title": "La clinique pour petits animaux offre-t-elle des places d'apprentis stagiaires ?",
+    "answer": "Seuls les candidats réellement intéressés par une place d'apprentissage dans la clinique pour petits animaux seront invités à participer à nos journées d´orientation. Il leur faudra présenter officiellement un dossier de candidature et ils seront ensuite contactés à l´issue de la procédure de sélection. Si l'objectif du candidat n'est toutefois que d'obtenir un simple aperçu du travail quotidien d'un médecin vétérinaire, nous lui recommandons de postuler dans un cabinet vétérinaire privé, car il aura là plus de chances pour accéder à une place de stage.",
+    "category": "Sejour" 
+  },
+  {
+    "id": 42,
+    "title": "Peut t-on adopter un animal soigné à la clinique qui n’aurait pas de propriétaire ?",
+    "answer": "Oui, Il faut faire une demande et pour le moment payer une somme de 150CHF (symbolique). Les coûts de suivi doivent être pris en charge par le nouveau propriétaire. Ce sont des étudiant/es ou des membres du personnel qui adoptent ces animaux. Il ne s'agit pas d'une distribution grand public sauf si une demande de particulier nous est connue.",
+    "category": "Sejour" 
+  },
+  {
+    "id": 43,
+    "title": "Comment puis-je donner mon avis sur mon expérience avec la clinique ?",
+    "answer": "Courrier, livre d’or, réseaux sociaux",
+    "category": "Sejour" 
+  },
+  {
+    "id": 44,
+    "title": "L'hospitalisation d’urgence de mon animal entraînera-t-elle un surcoût tarifaire ?",
+    "answer": "Dans l'hôpital vétérinaire de Berne, une taxe supplémentaire de CHF 100.- sera perçue, quel que soit le problème dont il s´agit. Ceci est valable aussi bien pour de nouveaux patients que pour des patients ayant déjà subi des traitements auparavant dans notre clinique.",
+    "category": "Facturation" 
+  },
+  {
+    "id": 45,
+    "title": "Que se passe-t-il dans le cas ou le montant de l’acompte versé est supérieur au montant final ?",
+    "answer": "Dans un tel cas, le client est remboursé. L'acompte est pris en compte dans tous les cas et le solde résiduel est restitué en tant qu´avoir.",
+    "category": "Facturation" 
+  },
+  {
+    "id": 46,
+    "title": "Dois-je régler le montant de la facture directement à la réception de la clinique pour petits animaux ?",
+    "answer": "Pour tout recours à des prestations dont le montant est inférieur à CHF 500.-, nous vous demandons de bien vouloir régler la facture directement en espèces ou par carte bancaire. Si le montant des prestations est supérieur à cette somme, nous vous présenterons un devis estimatif. Le traitement de votre animal ne pourra se faire que si vous consentez au devis estimatif établi. La moitié du montant du devis estimatif vous sera demandée en acompte. Le montant restant sera facturé au propriétaire lorsque celui-ci est domicilié en Suisse; pour les propriétaires domiciliés à l´étranger, le montant restant sera à régler lorsqu'ils viendront rechercher leur animal.",
+    "category": "Facturation" 
+  },
+  {
+    "id": 47,
+    "title": "Quels sont les moyens de paiement acceptés ?",
+    "answer": "Les paiements peuvent être effectués en espèces ou par carte bancaire et carte de crédit. Veuillez noter que n'acceptons pas la carte American-Express",
+    "category": "Facturation" 
+  },
+  {
+    "id": 48,
+    "title": "Des paiements partiels sont-ils possibles ? Comment annuler un rendez-vous ? un rendez-vous peut-il être reporté ?",
+    "answer": "Nous vous prions dans ce cas de bien vouloir contacter notre service de comptabilité après réception de la facture définitive, afin d'établir un contrat de paiement. Le numéro de téléphone figure sur la facture.",
+    "category": "Facturation" 
+  },
+  {
+    "id": 49,
+    "title": "Les factures peuvent-elles être directement traitées par l’assurance ?",
+    "answer": "Non, les factures sont toujours adressées au propriétaire de l'animal, car il sera remboursé en fonction par son assurance.",
+    "category": "Facturation" 
+  },
+  {
+    "id": 50,
+    "title": "Est-ce qu’une personne de contact reste disponible pendant la convalescence de mon animal ?",
+    "answer": "Oui, mais elle peut changer dû à la rotation de personnel due aux gardes de nuit et de week-end.",
+    "category": "Facturation" 
+  },
+  {
+    "id": 51,
+    "title": "Est-ce normal si l’état de mon animal ne s’améliore pas rapidement ? Que faire si l’état de mon animal ne s’améliore pas ?",
+    "answer": "Il est difficile de répondre de manière ciblée. Chaque propriétaire reçoit des recommandations écrites pour les soins post-opératoires. Ceux-ci diffèrent en fonction de la maladie. Certaines visites de contrôle peuvent être faites à la clinique ou chez le vétérinaire traitant. ",
+    "category": "Facturation" 
+  },
+  {
+    "id": 52,
+    "title": "Où puis-je me procurer les médicaments prescrits pour les soins de mon animal ?",
+    "answer": "Tierspital, vétérinaire, pharmacie.",
+    "category": "Facturation" 
+  }
+]
+  
