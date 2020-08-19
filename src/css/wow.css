@@ -76,3 +76,7 @@
 .btn.focus, .btn:focus {
     box-shadow: none !important;
 }
+
+hr {
+    border-width: 0.15rem !important;
+}
