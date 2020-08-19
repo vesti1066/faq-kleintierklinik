@@ -30,7 +30,8 @@ module.exports = {
         use: {
           loader: 'file-loader'
         }
-      }   
+      },
+      { test: /\.handlebars$/, loader: "handlebars-loader" }   
     ]
   },
   resolve: {
@@ -38,6 +39,9 @@ module.exports = {
       path.resolve('./src'),
       path.resolve('./node_modules')
     ]
+  },
+  node: {
+    fs: 'empty'
   },
   plugins: [
     new webpack.ProvidePlugin({

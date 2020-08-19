@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "12.x",
+    "npm": "6.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "preview": "live-server dist/",
@@ -29,7 +33,11 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.12.1",
     "bootstrap": "^4.4.1",
+    "handlebars": "^4.7.6",
+    "handlebars-loader": "^1.7.1",
     "jquery": "^3.4.1",
-    "popper.js": "^1.16.1"
+    "mustache": "^4.0.1",
+    "popper.js": "^1.16.1",
+    "swig": "^1.4.2"
   }
 }

@@ -63,6 +63,3 @@ $('.collapse').on('shown.bs.collapse', function(){
       console.log(id);
      window.location = id+'.html';
    })
-
-
-
