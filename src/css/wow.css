@@ -1,12 +1,85 @@
 .resize {
-    font-size: 0.9vw;
+   
     text-align: center;
+    padding-top: 10px;
 }
 
 .cross {
     text-align: right;
 }
 
+h3 {
+    font-size: 1.7vw!important;
+  }
+  @media screen and (max-width: 767px) {
+    h3 {
+       font-size: 25px!important;
+    }
+  }
+
+
+  h5 {
+    font-size: 1.5vw!important;
+  }
+  @media screen and (max-width: 767px) {
+    h5 {
+       font-size: 20px!important;
+    } 
+  }
+
+  @media screen and (min-width: 1100px) {
+    h5 {
+       font-size: 18px!important;
+    } 
+  }
+
+  #arrow1 {
+     text-align: left!important;
+     position: absolute!important;
+     padding-left: 5vw;
+     color: green;
+  }
+
+  @media screen and (max-width: 767px) {
+    #arrow1 {
+       display: none!important;
+    } 
+  }
+
+
+  #arrow2 {
+    text-align: left!important;
+    position: absolute!important;
+    padding-left: 3.2vw;
+    color: green;
+ }
+
+ @media screen and (max-width: 767px) {
+   #arrow2 {
+      display: none!important;
+   } 
+ }
+
+ 
+  
+
+  i {
+    font-size: 1.7vw!important;
+    
+  }
+  @media screen and (max-width: 767px) {
+    i {
+       font-size: 30px!important;
+    } 
+  }
+
+  @media screen and (min-width: 1100px) {
+    i {
+       font-size: 25px!important;
+    } 
+  }
+
+  
 
 #or {
     font-size: 3em;
@@ -32,6 +105,7 @@
    
 }
 
+
 .resize>div:hover {
     background-color: rgba(18, 83, 33, 0.788)!important;
     cursor: pointer;
@@ -53,6 +127,8 @@
 .happyClicked {
     color: green;
 }
+
+
 
 .card-body>i.fa-meh:hover {
     color: orange;
