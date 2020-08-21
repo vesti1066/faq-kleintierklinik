@@ -63,18 +63,18 @@ h3 {
  
   
 
-  i {
+ .card-body>i {
     font-size: 1.7vw!important;
     
   }
   @media screen and (max-width: 767px) {
-    i {
+    .card-body>i {
        font-size: 30px!important;
     } 
   }
 
   @media screen and (min-width: 1100px) {
-    i {
+    .card-body>i {
        font-size: 25px!important;
     } 
   }
