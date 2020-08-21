@@ -11,18 +11,28 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center">
-        <h1>FAQ</h1>
-        <p>Questions fréquemment posées</p>
+      <div class="col-12 text-center mt-3">
+        <h1>Questions fréquentes <i class="far fa-question-circle"></i></h1>
+        <p>Trouvez la réponse à vos questions !</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-3 mx-auto">
-        <input type="search" class="form-control ds-input my-auto" placeholder="Recherche...">
+      <div class="col-12 col-md-5 col-lg-4 mx-auto">
+        <form action="search.html" method="GET">
+          <div class="input-group mb-3">
+            <input type="search" name="search" class="form-control ds-input my-auto" placeholder="Recherche..."/>
+              <input type="submit" hidden></input>
+              <div class="input-group-append">
+                <span class="input-group-text" id="basic-addon2"><i class="fas fa-search"></i></span>
+              </div>
+          </div>     
+        </form>
       </div>
     </div>
-    <h3 class="mt-5 pl-4"><i class="fas fa-arrow-left text-success" id="previous"></i> RETOUR</h3>
-    <hr class="bg-success col-2 ml-0">
+
+
+    <button type="button" class="btn btn-outline-success" id="previous"><i class="fas fa-arrow-left"></i> Retour</button>
+    <hr class="bg-success">
     <div class="row">
       <div class="col-12 col-md-12 col-lg-3">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -352,6 +362,28 @@
         </div>
       </div>
     </div>
+    </div>
+    <footer class="bg-success text-white text-center mt-5 pb-5">
+      <h3 class="text-center pt-5">VOUS N'AVEZ PAS TROUVÉ LA RÉPONSE À VOTRE QUESTION ? </h3>
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-12">
+            <button type="button" class="text-center btn btn-outline-light mb-1"><i
+                class="align-middle far fa-envelope fa-2x"></i>
+              Envoyer nous un Email !</button>
+    
+            <hr class="separation">
+            <p><i class="fas fa-phone-alt"></i> Appelez nous au <b>+41 31 631 23 15</b><br>
+              Du lundi au vendredi de <b>8h00 à 17h00</b></p>
+            <hr class="separation">
+            <p><i class="fas fa-phone-alt"></i> Appelez nous au <b>0900 900 960</b> <br>
+              Du lundi au vendredi de <b>17h00 à 8h00</b> week-end, jours fériés<br>
+              Numéro payant (CHF 1,50/min. pour appels du réseau fixe)</p>
+    
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="bundle.js"></script>
 </body>

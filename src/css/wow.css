@@ -85,20 +85,13 @@ h3 {
     font-size: 3em;
 }
 
-#separation{
-   border: 2px solid black;
-   width: 5vw;
-
+.separation{
+    height: 1px;
+  background-color: white;
+  border: 0;
+  width: 4rem;
 }
 
-.btn_email {
-    border: 1px solid black !important;
-}
-
-.btn_email:hover {
-    background-color: black;
-    color: white !important;
-}
 
 .question:hover{
     background-color:rgba(68, 68, 68, 0.096)!important;
@@ -156,4 +149,3 @@ h3 {
 hr {
     border-width: 0.15rem !important;
 }
-
