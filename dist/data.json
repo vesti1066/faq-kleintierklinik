@@ -3,7 +3,8 @@
     "id": 1,
     "title": "Quand la clinique est-elle ouverte ?",
     "answer": "La clinique pour petits animaux est ouverte de 07.30h à 17.30h. En dehors de ces heures d´ouverture régulières, il vous faudra appuyer sur le bouton d´urgence à l'entrée de la clinique, car la réception ne sera alors plus occupée.",
-    "category": "Informations pratiques" 
+    "category": "Informations pratiques",
+    "seen":0
   },
 {
     "id": 2,
@@ -105,7 +106,8 @@
     "id": 18,
     "title": "Il y a t-il des pratiques à éviter lors du déplacement de mon animal blessé ?",
     "answer": "Votre animal peut souffrir et réagir différemment (agressivement) à la manipulation. Cela signifie pour vous que, selon la blessure, vous devez manipuler votre animal avec prudence et éventuellement aussi avec des gants de protection. (Par exemple, gants de jardinage, gants de ski, etc.)",
-    "category": "Bonnes pratiques" 
+    "category": "Bonnes pratiques",
+    "seen":0
   },
   {
     "id": 19,
@@ -243,19 +245,19 @@
     "id": 41,
     "title": "La clinique pour petits animaux offre-t-elle des places d'apprentis stagiaires ?",
     "answer": "Seuls les candidats réellement intéressés par une place d'apprentissage dans la clinique pour petits animaux seront invités à participer à nos journées d´orientation. Il leur faudra présenter officiellement un dossier de candidature et ils seront ensuite contactés à l´issue de la procédure de sélection. Si l'objectif du candidat n'est toutefois que d'obtenir un simple aperçu du travail quotidien d'un médecin vétérinaire, nous lui recommandons de postuler dans un cabinet vétérinaire privé, car il aura là plus de chances pour accéder à une place de stage.",
-    "category": "Sejour" 
+    "category": "Divers" 
   },
   {
     "id": 42,
     "title": "Peut t-on adopter un animal soigné à la clinique qui n’aurait pas de propriétaire ?",
     "answer": "Oui, Il faut faire une demande et pour le moment payer une somme de 150CHF (symbolique). Les coûts de suivi doivent être pris en charge par le nouveau propriétaire. Ce sont des étudiant/es ou des membres du personnel qui adoptent ces animaux. Il ne s'agit pas d'une distribution grand public sauf si une demande de particulier nous est connue.",
-    "category": "Sejour" 
+    "category": "Divers" 
   },
   {
     "id": 43,
     "title": "Comment puis-je donner mon avis sur mon expérience avec la clinique ?",
     "answer": "Courrier, livre d’or, réseaux sociaux",
-    "category": "Sejour" 
+    "category": "Divers" 
   },
   {
     "id": 44,
@@ -297,19 +299,19 @@
     "id": 50,
     "title": "Est-ce qu’une personne de contact reste disponible pendant la convalescence de mon animal ?",
     "answer": "Oui, mais elle peut changer dû à la rotation de personnel due aux gardes de nuit et de week-end.",
-    "category": "Facturation" 
+    "category": "Retablissement" 
   },
   {
     "id": 51,
     "title": "Est-ce normal si l’état de mon animal ne s’améliore pas rapidement ? Que faire si l’état de mon animal ne s’améliore pas ?",
     "answer": "Il est difficile de répondre de manière ciblée. Chaque propriétaire reçoit des recommandations écrites pour les soins post-opératoires. Ceux-ci diffèrent en fonction de la maladie. Certaines visites de contrôle peuvent être faites à la clinique ou chez le vétérinaire traitant. ",
-    "category": "Facturation" 
+    "category": "Retablissement" 
   },
   {
     "id": 52,
     "title": "Où puis-je me procurer les médicaments prescrits pour les soins de mon animal ?",
     "answer": "Tierspital, vétérinaire, pharmacie.",
-    "category": "Facturation" 
+    "category": "Retablissement" 
   }
 ]
   
