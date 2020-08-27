@@ -3,7 +3,7 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Data from '../dist/data.json';
-var fs = require('fs');
+const axios = require('axios');
 
 $('.card.bg-success').mouseenter(function (event) {
   let current = event.currentTarget;
@@ -83,7 +83,7 @@ $('#contenu').on('click', '.fa-frown', function() {
 })
 */
 
-$('.plus-minus').on('shown.bs.collapse','.collapse', function () {
+$('.plus-minus').on('shown.bs.collapse', '.collapse', function () {
   $(this).parent().find(".quest_icon").removeClass("fa-plus").addClass("fa-minus");
 }).on('hidden.bs.collapse', function () {
   $(this).parent().find(".quest_icon").removeClass("fa-minus").addClass("fa-plus");
@@ -152,7 +152,7 @@ facturation.forEach(d => $('#facturation_content').append(
 
   `
   <div class="mb-3 card">
-  <div data-target="#collapse-${d.id}" data-toggle="collapse" class="question btn bg-white card-header"
+  <div  data-target="#collapse-${d.id}" data-toggle="collapse" class="question btn bg-white card-header"
     id="heading-${d.id}">
     <h5 class="text-center mb-0"><i class="quest_icon mt-2 float-right fas fa-plus"></i>
       <button class=" btn font-weight-bold collapsed" aria-expanded="false" aria-controls="collapseTwo">
@@ -160,7 +160,7 @@ facturation.forEach(d => $('#facturation_content').append(
       </button>
     </h5>
   </div>
-  <div id="collapse-${d.id}" class="collapse" aria-labelledby="headingTwo" data-parent="#heading-${d.id}">
+  <div data-id="${d.id}" id="collapse-${d.id}" class="collapse" aria-labelledby="headingTwo" data-parent="#heading-${d.id}">
   <div class="card-body">
     <p>${d.answer}</p>
     <br>
@@ -184,7 +184,7 @@ divers.forEach(d => $('#divers_content').append(
       </button>
     </h5>
   </div>
-  <div id="collapse-${d.id}" class="collapse" aria-labelledby="headingTwo" data-parent="#heading-${d.id}">
+  <div data-id="${d.id}" id="collapse-${d.id}" class="collapse" aria-labelledby="headingTwo" data-parent="#heading-${d.id}">
   <div class="card-body">
     <p>${d.answer}</p>
     <br>
@@ -200,7 +200,7 @@ hospitalisation.forEach(d => $('#hospitalisation_content').append(
 
   `
   <div class="mb-3 card">
-  <div data-target="#collapse-${d.id}" data-toggle="collapse" class="question btn bg-white card-header"
+  <div  data-target="#collapse-${d.id}" data-toggle="collapse" class="question btn bg-white card-header"
     id="heading-${d.id}">
     <h5 class="text-center mb-0"><i class="quest_icon mt-2 float-right fas fa-plus"></i>
       <button class=" btn font-weight-bold collapsed" aria-expanded="false" aria-controls="collapseTwo">
@@ -208,7 +208,7 @@ hospitalisation.forEach(d => $('#hospitalisation_content').append(
       </button>
     </h5>
   </div>
-  <div id="collapse-${d.id}" class="collapse" aria-labelledby="headingTwo" data-parent="#heading-${d.id}">
+  <div data-id="${d.id}" id="collapse-${d.id}" class="collapse" aria-labelledby="headingTwo" data-parent="#heading-${d.id}">
   <div class="card-body">
     <p>${d.answer}</p>
     <br>
@@ -231,7 +231,7 @@ info.forEach(d => $('#informations_content').append(
       </button>
     </h5>
   </div>
-  <div id="collapse-${d.id}" class="collapse" aria-labelledby="headingTwo" data-parent="#heading-${d.id}">
+  <div data-id="${d.id}" id="collapse-${d.id}" class="collapse" aria-labelledby="headingTwo" data-parent="#heading-${d.id}">
   <div class="card-body">
     <p>${d.answer}</p>
     <br>
@@ -255,7 +255,7 @@ priseencharge.forEach(d => $('#priseencharge_content').append(
       </button>
     </h5>
   </div>
-  <div id="collapse-${d.id}" class="collapse" aria-labelledby="headingTwo" data-parent="#heading-${d.id}">
+  <div data-id="${d.id}" id="collapse-${d.id}" class="collapse" aria-labelledby="headingTwo" data-parent="#heading-${d.id}">
   <div class="card-body">
     <p>${d.answer}</p>
     <br>
@@ -271,7 +271,7 @@ retablissement.forEach(d => $('#retablissement_content').append(
 
   `
   <div class="mb-3 card">
-  <div data-target="#collapse-${d.id}" data-toggle="collapse" class="question btn bg-white card-header"
+  <div  data-target="#collapse-${d.id}" data-toggle="collapse" class="question btn bg-white card-header"
     id="heading-${d.id}">
     <h5 class="text-center mb-0"><i class="quest_icon mt-2 float-right fas fa-plus"></i>
       <button class=" btn font-weight-bold collapsed" aria-expanded="false" aria-controls="collapseTwo">
@@ -279,7 +279,7 @@ retablissement.forEach(d => $('#retablissement_content').append(
       </button>
     </h5>
   </div>
-  <div id="collapse-${d.id}" class="collapse" aria-labelledby="headingTwo" data-parent="#heading-${d.id}">
+  <div data-id="${d.id}" id="collapse-${d.id}" class="collapse" aria-labelledby="headingTwo" data-parent="#heading-${d.id}">
   <div class="card-body">
     <p>${d.answer}</p>
     <br>
@@ -295,7 +295,7 @@ sejour.forEach(d => $('#sejour_content').append(
 
   `
   <div class="mb-3 card">
-  <div data-target="#collapse-${d.id}" data-toggle="collapse" class="question btn bg-white card-header"
+  <div  data-target="#collapse-${d.id}" data-toggle="collapse" class="question btn bg-white card-header"
     id="heading-${d.id}">
     <h5 class="text-center mb-0"><i class="quest_icon mt-2 float-right fas fa-plus"></i>
       <button class=" btn font-weight-bold collapsed" aria-expanded="false" aria-controls="collapseTwo">
@@ -303,7 +303,7 @@ sejour.forEach(d => $('#sejour_content').append(
       </button>
     </h5>
   </div>
-  <div id="collapse-${d.id}" class="collapse" aria-labelledby="headingTwo" data-parent="#heading-${d.id}">
+  <div data-id="${d.id}" id="collapse-${d.id}" class="collapse" aria-labelledby="headingTwo" data-parent="#heading-${d.id}">
   <div class="card-body">
     <p>${d.answer}</p>
     <br>
@@ -319,7 +319,7 @@ bonnepratique.forEach(d => $('#bonnepratique_content').append(
 
   `
   <div class="mb-3 card">
-  <div data-target="#collapse-${d.id}" data-toggle="collapse" class="question btn bg-white card-header"
+  <div  data-target="#collapse-${d.id}" data-toggle="collapse" class="question btn bg-white card-header"
     id="heading-${d.id}">
     <h5 class="text-center mb-0"><i class="quest_icon mt-2 float-right fas fa-plus"></i>
       <button class=" btn font-weight-bold collapsed" aria-expanded="false" aria-controls="collapseTwo">
@@ -327,7 +327,7 @@ bonnepratique.forEach(d => $('#bonnepratique_content').append(
       </button>
     </h5>
   </div>
-  <div id="collapse-${d.id}" class="collapse" aria-labelledby="headingTwo" data-parent="#heading-${d.id}">
+  <div data-id="${d.id}" id="collapse-${d.id}" class="collapse" aria-labelledby="headingTwo" data-parent="#heading-${d.id}">
   <div class="card-body">
     <p>${d.answer}</p>
     <br>
@@ -351,7 +351,33 @@ consultation.forEach(d => $('#consultation_content').append(
       </button>
     </h5>
   </div>
-  <div id="collapse-${d.id}" class="collapse" aria-labelledby="headingTwo" data-parent="#heading-${d.id}">
+  <div data-id="${d.id}" id="collapse-${d.id}" class="collapse" aria-labelledby="headingTwo" data-parent="#heading-${d.id}">
+  <div class="card-body">
+    <p>${d.answer}</p>
+    <br>
+    </div>
+  </div>
+</div>`
+
+))
+
+
+
+let recurrent = Data.filter(d => d.id == 'idk');
+
+recurrent.forEach(d => $('#recurrent_content').append(
+
+  `
+  <div class="mb-3 card">
+  <div  data-target="#collapse-${d.id}" data-toggle="collapse" class="question btn bg-white card-header"
+    id="heading-${d.id}">
+    <h5 class="text-center mb-0"><i class="quest_icon mt-2 float-right fas fa-plus"></i>
+      <button class=" btn font-weight-bold collapsed" aria-expanded="false" aria-controls="collapseTwo">
+      ${d.title}
+      </button>
+    </h5>
+  </div>
+  <div data-id="${d.id}" id="collapse-${d.id}" class="collapse" aria-labelledby="headingTwo" data-parent="#heading-${d.id}">
   <div class="card-body">
     <p>${d.answer}</p>
     <br>
@@ -399,4 +425,26 @@ console.log(data)
 */
 
 
-  // $('#search-results').append(Data.forEach(d => d.answer));
+// $('#search-results').append(Data.forEach(d => d.answer));
+
+$('.plus-minus').on('shown.bs.collapse', '.collapse', function () {
+
+  let idQuestion = $(this).data('id')
+  console.log($(this).data('id'))
+  console.log(this)
+
+  axios.get('https://kleintierklinik-stats-service.herokuapp.com/'+idQuestion)
+    .then(function (response) {
+      // handle success
+      console.log(response);
+    })
+    .catch(function (error) {
+      // handle error
+      console.log(error);
+    })
+    .then(function () {
+      // always executed
+    });
+
+
+});
