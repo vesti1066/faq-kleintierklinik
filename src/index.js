@@ -361,31 +361,63 @@ consultation.forEach(d => $('#consultation_content').append(
 
 ))
 
+$( document ).ready(function() {
+  axios.get('https://kleintierklinik-stats-service.herokuapp.com/')
+.then(function (response) {
+  // handle success
+  console.log(response.data);
+  //let array = Object.values(response.data)
+  //console.log(array)
+  let topViewed = response.data.data.slice(0,5)
+  console.log(topViewed)
 
+  let recurrent = []; 
+  topViewed.forEach(e => {
+  let recurrentElement = Data.filter(d => d.id == e.ID);
+  console.log(recurrentElement)
 
-let recurrent = Data.filter(d => d.id == 'idk');
+  recurrentElement.forEach(d => $('#recurrent_content').append(
 
-recurrent.forEach(d => $('#recurrent_content').append(
-
-  `
-  <div class="mb-3 card">
-  <div  data-target="#collapse-${d.id}" data-toggle="collapse" class="question btn bg-white card-header"
-    id="heading-${d.id}">
-    <h5 class="text-center mb-0"><i class="quest_icon mt-2 float-right fas fa-plus"></i>
-      <button class=" btn font-weight-bold collapsed" aria-expanded="false" aria-controls="collapseTwo">
-      ${d.title}
-      </button>
-    </h5>
-  </div>
-  <div data-id="${d.id}" id="collapse-${d.id}" class="collapse" aria-labelledby="headingTwo" data-parent="#heading-${d.id}">
-  <div class="card-body">
-    <p>${d.answer}</p>
-    <br>
+    `
+    <div class="mb-3 card">
+    <div  data-target="#collapse-${d.id}" data-toggle="collapse" class="question btn bg-white card-header"
+      id="heading-${d.id}">
+      <h5 class="text-center mb-0"><i class="quest_icon mt-2 float-right fas fa-plus"></i>
+        <button class=" btn font-weight-bold collapsed" aria-expanded="false" aria-controls="collapseTwo">
+        ${d.title}
+        </button>
+      </h5>
     </div>
-  </div>
-</div>`
+    <div data-id="${d.id}" id="collapse-${d.id}" class="collapse" aria-labelledby="headingTwo" data-parent="#heading-${d.id}">
+    <div class="card-body">
+      <p>${d.answer}</p>
+      <br>
+      </div>
+    </div>
+  </div>`
+  
+  ))
 
-))
+
+
+  recurrent.push(recurrentElement);
+  return recurrent;
+})
+
+
+  
+})
+.catch(function (error) {
+  // handle error
+  console.log(error);
+})
+.then(function () {
+  // always executed
+});
+});
+
+
+
 /*
 function jsonReader(filePath, cb) {
   fs.readFile(filePath, (err, fileData) => {
@@ -436,7 +468,7 @@ $('.plus-minus').on('shown.bs.collapse', '.collapse', function () {
   axios.get('https://kleintierklinik-stats-service.herokuapp.com/'+idQuestion)
     .then(function (response) {
       // handle success
-      console.log(response);
+     // console.log(response);
     })
     .catch(function (error) {
       // handle error
@@ -448,3 +480,8 @@ $('.plus-minus').on('shown.bs.collapse', '.collapse', function () {
 
 
 });
+
+
+
+
+
